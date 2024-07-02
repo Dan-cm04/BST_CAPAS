@@ -1,0 +1,6 @@
+C:\Users\ph460\source\repos\Harbol\ClassBts\bin\Debug\ClassBts.dll
+C:\Users\ph460\source\repos\Harbol\ClassBts\bin\Debug\ClassBts.pdb
+C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.csproj.AssemblyReference.cache
+C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.csproj.CoreCompileInputs.cache
+C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.dll
+C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.pdb
