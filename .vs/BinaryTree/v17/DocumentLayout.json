@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\BinaryTree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FD655C1-8B15-447E-A97C-613A7D953EF7}|ClassBts\\ClassBts.csproj|c:\\binarytree\\classbts\\bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FD655C1-8B15-447E-A97C-613A7D953EF7}|ClassBts\\ClassBts.csproj|solutionrelative:classbts\\bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FD655C1-8B15-447E-A97C-613A7D953EF7}|ClassBts\\ClassBts.csproj|C:\\BinaryTree\\classbts\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FD655C1-8B15-447E-A97C-613A7D953EF7}|ClassBts\\ClassBts.csproj|solutionrelative:classbts\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|C:\\BinaryTree\\bstwebapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|C:\\BinaryTree\\bstwebapp\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\BinaryTree\\BSTWebApp\\Global.asax.cs",
+              "RelativeDocumentMoniker": "BSTWebApp\\Global.asax.cs",
+              "ToolTip": "C:\\BinaryTree\\BSTWebApp\\Global.asax.cs",
+              "RelativeToolTip": "BSTWebApp\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-07-03T07:10:29.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\BinaryTree\\ClassBts\\Nodo.cs",
+              "RelativeDocumentMoniker": "ClassBts\\Nodo.cs",
+              "ToolTip": "C:\\BinaryTree\\ClassBts\\Nodo.cs",
+              "RelativeToolTip": "ClassBts\\Nodo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:10:29.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\BinaryTree\\BSTWebApp\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "BSTWebApp\\WebForm1.aspx",
+              "ToolTip": "C:\\BinaryTree\\BSTWebApp\\WebForm1.aspx",
+              "RelativeToolTip": "BSTWebApp\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-07-03T07:10:29.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BST.cs",
+              "DocumentMoniker": "C:\\BinaryTree\\ClassBts\\BST.cs",
+              "RelativeDocumentMoniker": "ClassBts\\BST.cs",
+              "ToolTip": "C:\\BinaryTree\\ClassBts\\BST.cs",
+              "RelativeToolTip": "ClassBts\\BST.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAIwFEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:10:29.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
