@@ -79,12 +79,105 @@ namespace ClassBts
 
             return nodo;
         }
+        private Nodo<T> Minimo(Nodo<T> nodo)
+        {
+            while (nodo.Izquierdo != null)
+                nodo = nodo.Izquierdo;
+
+            return nodo;
+        }
+
+        public T Minimo()
+        {
+            return Minimo(Raiz).Valor;
+        }
+
+        public T Maximo()
+        {
+            return Maximo(Raiz).Valor;
+        }
+
+        private Nodo<T> Maximo(Nodo<T> nodo)
+        {
+            while (nodo.Derecho != null)
+                nodo = nodo.Derecho;
+
+            return nodo;
+        }
+
+        public void InOrden(Nodo<T> nodo, List<string> resultado)
+        {
+            if (nodo == null) return;
+
+            InOrden(nodo.Izquierdo, resultado);
+            resultado.Add(FormatearDatos(nodo.Valor.ToString()));
+            InOrden(nodo.Derecho, resultado);
+        }
+
+        public void PreOrden(Nodo<T> nodo, List<string> resultado)
+        {
+            if (nodo == null) return;
+
+            resultado.Add(FormatearDatos(nodo.Valor.ToString()));
+            PreOrden(nodo.Izquierdo, resultado);
+            PreOrden(nodo.Derecho, resultado);
+        }
+
+        public void PostOrden(Nodo<T> nodo, List<string> resultado)
+        {
+            if (nodo == null) return;
+
+            PostOrden(nodo.Izquierdo, resultado);
+            PostOrden(nodo.Derecho, resultado);
+            resultado.Add(FormatearDatos(nodo.Valor.ToString()));
+        }
+
+        public void PorNiveles(Nodo<T> nodo, List<string> resultado)
+        {
+            if (nodo == null) return;
+
+            Queue<Nodo<T>> queue = new Queue<Nodo<T>>();
+            queue.Enqueue(nodo);
+
+            while (queue.Count > 0)
+            {
+                Nodo<T> current = queue.Dequeue();
+                resultado.Add(FormatearDatos(current.Valor.ToString()));
+
+                if (current.Izquierdo != null)
+                    queue.Enqueue(current.Izquierdo);
+                if (current.Derecho != null)
+                    queue.Enqueue(current.Derecho);
+            }
+
+
+        }
+        private string FormatearDatos(string datos)
+        {
+            var partes = datos.Split(',');
+            if (partes.Length < 3)
+            {
+                return "Datos incompletos para formatear.";
+            }
+
+            string fechaStr = partes[0].Trim();
+            DateTime fecha;
+            if (!DateTime.TryParseExact(fechaStr, "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out fecha))
+            {
+                return "Fecha inválida.";
+            }
+
+            string matricula = partes[1].Trim();
+            string asistencia = partes[2].Trim();
+
+            return $"Fecha: {fecha:dd/MM/yyyy}, Matrícula: {matricula}, Asistencia: {asistencia}";
+        }
+
 
 
     }
 
-
 }
-        
- 
+
+
 
