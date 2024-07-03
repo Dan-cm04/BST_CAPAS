@@ -4,3 +4,15 @@ C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.csproj.AssemblyRe
 C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.csproj.CoreCompileInputs.cache
 C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.dll
 C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.pdb
+C:\Users\ph460\source\repos\BinaryTree\ClassBts\bin\Debug\ClassBts.dll
+C:\Users\ph460\source\repos\BinaryTree\ClassBts\bin\Debug\ClassBts.pdb
+C:\Users\ph460\source\repos\BinaryTree\ClassBts\obj\Debug\ClassBts.csproj.AssemblyReference.cache
+C:\Users\ph460\source\repos\BinaryTree\ClassBts\obj\Debug\ClassBts.csproj.CoreCompileInputs.cache
+C:\Users\ph460\source\repos\BinaryTree\ClassBts\obj\Debug\ClassBts.dll
+C:\Users\ph460\source\repos\BinaryTree\ClassBts\obj\Debug\ClassBts.pdb
+C:\Users\raylm\Desktop\escuela\novenocuatri\guillermo\BinaryTree\BinaryTree\ClassBts\bin\Debug\ClassBts.dll
+C:\Users\raylm\Desktop\escuela\novenocuatri\guillermo\BinaryTree\BinaryTree\ClassBts\bin\Debug\ClassBts.pdb
+C:\Users\raylm\Desktop\escuela\novenocuatri\guillermo\BinaryTree\BinaryTree\ClassBts\obj\Debug\ClassBts.csproj.AssemblyReference.cache
+C:\Users\raylm\Desktop\escuela\novenocuatri\guillermo\BinaryTree\BinaryTree\ClassBts\obj\Debug\ClassBts.csproj.CoreCompileInputs.cache
+C:\Users\raylm\Desktop\escuela\novenocuatri\guillermo\BinaryTree\BinaryTree\ClassBts\obj\Debug\ClassBts.dll
+C:\Users\raylm\Desktop\escuela\novenocuatri\guillermo\BinaryTree\BinaryTree\ClassBts\obj\Debug\ClassBts.pdb
