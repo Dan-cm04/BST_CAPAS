@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\BinaryTree\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|C:\\BinaryTree\\bstwebapp\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|c:\\binarytree\\bstwebapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|C:\\BinaryTree\\bstwebapp\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|c:\\binarytree\\bstwebapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FD655C1-8B15-447E-A97C-613A7D953EF7}|ClassBts\\ClassBts.csproj|C:\\BinaryTree\\classbts\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,7 +19,15 @@
       "RelativeMoniker": "D:0:0:{5FD655C1-8B15-447E-A97C-613A7D953EF7}|ClassBts\\ClassBts.csproj|solutionrelative:classbts\\bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|c:\\binarytree\\bstwebapp\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|C:\\BinaryTree\\bstwebapp\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|C:\\BinaryTree\\bstwebapp\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|C:\\BinaryTree\\bstwebapp\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{98B66E22-0E89-4FFB-BCF7-4CB92FB4ED42}|BSTWebApp\\BSTWebApp.csproj|solutionrelative:bstwebapp\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\BinaryTree\\BSTWebApp\\Global.asax.cs",
+              "RelativeDocumentMoniker": "BSTWebApp\\Global.asax.cs",
+              "ToolTip": "C:\\BinaryTree\\BSTWebApp\\Global.asax.cs",
+              "RelativeToolTip": "BSTWebApp\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:57:54.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\BinaryTree\\BSTWebApp\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "BSTWebApp\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\BinaryTree\\BSTWebApp\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "BSTWebApp\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:57:19.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "script.js",
               "DocumentMoniker": "C:\\BinaryTree\\BSTWebApp\\script.js",
               "RelativeDocumentMoniker": "BSTWebApp\\script.js",
@@ -42,12 +76,11 @@
               "RelativeToolTip": "BSTWebApp\\script.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-03T07:16:40.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:16:40.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\BinaryTree\\BSTWebApp\\WebForm1.aspx",
               "RelativeDocumentMoniker": "BSTWebApp\\WebForm1.aspx",
@@ -60,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "WebForm1.aspx.cs",
               "DocumentMoniker": "C:\\BinaryTree\\BSTWebApp\\WebForm1.aspx.cs",
               "RelativeDocumentMoniker": "BSTWebApp\\WebForm1.aspx.cs",
@@ -79,7 +112,7 @@
               "RelativeDocumentMoniker": "ClassBts\\BST.cs",
               "ToolTip": "C:\\BinaryTree\\ClassBts\\BST.cs",
               "RelativeToolTip": "ClassBts\\BST.cs",
-              "ViewState": "AQIAAMEAAAAAAAAAAAAqwOIAAAABAAAA",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAzwOMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T13:25:31.684Z",
               "EditorCaption": ""
