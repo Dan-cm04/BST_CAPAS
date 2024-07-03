@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
+
 
 namespace ClassBts
 {
@@ -12,6 +14,7 @@ namespace ClassBts
             Raiz = Insertar(Raiz, valor);
         }
 
+        //INSERTAR
         private Nodo<T> Insertar(Nodo<T> nodo, T valor)
         {
             if (nodo == null)
@@ -27,6 +30,7 @@ namespace ClassBts
             return nodo;
         }
 
+        //BUSCAR
         public Nodo<T> Buscar(string matricula)
         {
             return Buscar(Raiz, matricula);
@@ -49,6 +53,7 @@ namespace ClassBts
                 return Buscar(nodo.Derecho, matricula);
         }
 
+        //ELIMINAR
         public void Eliminar(string matricula)
         {
             Raiz = Eliminar(Raiz, matricula);
@@ -80,6 +85,7 @@ namespace ClassBts
             return nodo;
         }
 
+        //MINIMO
         private Nodo<T> Minimo(Nodo<T> nodo)
         {
             while (nodo.Izquierdo != null)
@@ -93,6 +99,7 @@ namespace ClassBts
             return Minimo(Raiz).Valor;
         }
 
+        //MAXIMO
         public T Maximo()
         {
             return Maximo(Raiz).Valor;
@@ -106,6 +113,7 @@ namespace ClassBts
             return nodo;
         }
 
+        //RECORRIDOS
         public void InOrden(Nodo<T> nodo, List<string> resultado)
         {
             if (nodo == null) return;
@@ -152,11 +160,68 @@ namespace ClassBts
             }
         }
 
+        // BALANCEAR
+        public void Balancear()
+        {
+            // Obtener los nodos en orden
+            List<T> nodosEnOrden = new List<T>();
+            ObtenerNodosEnOrden(Raiz, nodosEnOrden);
+
+            // Construir el árbol balanceado
+            Raiz = ConstruirArbolBalanceado(nodosEnOrden, 0, nodosEnOrden.Count - 1);
+        }
+
+        private void ObtenerNodosEnOrden(Nodo<T> nodo, List<T> nodosEnOrden)
+        {
+            if (nodo == null) return;
+
+            ObtenerNodosEnOrden(nodo.Izquierdo, nodosEnOrden);
+            nodosEnOrden.Add(nodo.Valor);
+            ObtenerNodosEnOrden(nodo.Derecho, nodosEnOrden);
+        }
+
+        private Nodo<T> ConstruirArbolBalanceado(List<T> nodosEnOrden, int inicio, int fin)
+        {
+            if (inicio > fin)
+                return null;
+
+            int medio = (inicio + fin) / 2;
+            Nodo<T> nodo = new Nodo<T>(nodosEnOrden[medio])
+            {
+                Izquierdo = ConstruirArbolBalanceado(nodosEnOrden, inicio, medio - 1),
+                Derecho = ConstruirArbolBalanceado(nodosEnOrden, medio + 1, fin)
+            };
+
+            return nodo;
+        }
+
+
         private string FormatearDatos(string datos)
         {
             var partes = datos.Split(',');
-            return $"Fecha: {partes[0]}, Matricula: {partes[1]}, Asistencia: {partes[2]}";
-        }
-    }
+            if (partes.Length < 3)
+            {
+                return "Datos incompletos para formatear.";
+            }
 
+            string fechaStr = partes[0].Trim();
+            DateTime fecha;
+            if (!DateTime.TryParseExact(fechaStr, "yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out fecha))
+            {
+                return "Fecha inválida.";
+            }
+
+            string matricula = partes[1].Trim();
+            string asistencia = partes[2].Trim();
+
+            return $"Fecha: {fecha:dd/MM/yyyy}, Matrícula: {matricula}, Asistencia: {asistencia}";
+        }
+
+        // OBTENER DATOS 
+        public string SerializarJSON()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
+
+    }
 }

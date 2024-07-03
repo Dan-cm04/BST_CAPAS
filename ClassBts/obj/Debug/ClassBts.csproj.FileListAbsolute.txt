@@ -4,3 +4,12 @@ C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.csproj.AssemblyRe
 C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.csproj.CoreCompileInputs.cache
 C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.dll
 C:\Users\ph460\source\repos\Harbol\ClassBts\obj\Debug\ClassBts.pdb
+C:\BinaryTree\ClassBts\obj\Debug\ClassBts.csproj.AssemblyReference.cache
+C:\BinaryTree\ClassBts\obj\Debug\ClassBts.csproj.CoreCompileInputs.cache
+C:\BinaryTree\ClassBts\obj\Debug\ClassBts.dll
+C:\BinaryTree\ClassBts\obj\Debug\ClassBts.pdb
+C:\BinaryTree\ClassBts\bin\Debug\ClassBts.dll
+C:\BinaryTree\ClassBts\bin\Debug\ClassBts.pdb
+C:\BinaryTree\ClassBts\bin\Debug\Newtonsoft.Json.dll
+C:\BinaryTree\ClassBts\bin\Debug\Newtonsoft.Json.xml
+C:\BinaryTree\ClassBts\obj\Debug\ClassBts.csproj.Up2Date
